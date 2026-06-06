@@ -107,21 +107,20 @@ const handleTimelineCreated = (timeline: gsap.core.Timeline, delay: number) => {
 };
 
 const SERVICES_EN = [
-  { name: "Three.js & WebGL" },
-  { name: "Node.js & WebSockets" },
-  { name: "React & Vue" },
-  { name: "Kubernetes & Redis" },
-  { name: "Real-time Multiplayer" },
-] as const satisfies { name: string }[];
+  { name: "React.js" },
+  { name: "JavaScript" },
+  { name: "Node.js & Express" },
+  { name: "MongoDB" },
+  { name: "REST APIs & WebRTC" },
+] as const;
 
 const SERVICES_DE = [
-  { name: "Three.js & WebGL" },
-  { name: "Node.js & WebSockets" },
-  { name: "React & Vue" },
-  { name: "Kubernetes & Redis" },
-  { name: "Echtzeit-Mehrspieler" },
-] as const satisfies { name: string }[];
-
+  { name: "React.js" },
+  { name: "JavaScript" },
+  { name: "Node.js & Express" },
+  { name: "MongoDB" },
+  { name: "REST APIs & WebRTC" },
+] as const;
 const services = computed(() => {
   return locale.value === "en" ? SERVICES_EN : SERVICES_DE;
 });

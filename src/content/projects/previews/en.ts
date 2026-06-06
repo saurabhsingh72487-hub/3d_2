@@ -1,47 +1,41 @@
-import thumbnailCubeWar from "../../../assets/thumbnails/cubewar.webp";
-import thumbnailQuibbo from "../../../assets/thumbnails/quibbo.webp";
+import thumbnailCubeWar from "../../../assets/thumbnails/open-source.png";
+import thumbnailQuibbo from "../../../assets/thumbnails/freecodecamp.png";
 //import thumbnailParticles from "../../../assets/thumbnails/particles.webp";
-import thumbnailPokedex from "../../../assets/thumbnails/pokedex.webp";
-import thumbnailSharkie from "../../../assets/thumbnails/sharkie.webp";
-import thumbnailStreakon from "../../../assets/thumbnails/streakon.webp";
+import thumbnailPokedex from "../../../assets/thumbnails/issue-tracker.png";
+import thumbnailSharkie from "../../../assets/thumbnails/stock-price-checker.png";
+import thumbnailStreakon from "../../../assets/thumbnails/helmet-detection.png";
 
 import type { ProjectPreview } from "../../types";
 
 export default [
   {
-    title: "StreakOn",
-    slug: "streakon",
+    title: "Helmet Detection System",
+    slug: "helmet-detection",
     thumbnail: thumbnailStreakon,
-    description: "Social habit tracking app",
+    description: "AI-powered helmet compliance detection system",
   },
   {
-    title: "CubeWar",
-    slug: "cubewar",
+    title: "Open Source Contributions",
+    slug: "open-source",
     thumbnail: thumbnailCubeWar,
-    description: "Multiplayer strategy game",
+    description: "10+ pull requests merged and issues resolved",
   },
   {
-    title: "Quibbo",
-    slug: "quibbo",
+    title: "FreeCodeCamp Certifications",
+    slug: "freecodecamp",
     thumbnail: thumbnailQuibbo,
-    description: "Multiplayer gaming platform",
+    description: "Certified in frontend and backend development",
   },
+ {
+  title: "Stock Price Checker",
+  slug: "stock-price-checker",
+  thumbnail: thumbnailSharkie,
+  description: "Real-time stock market tracking application",
+},
   {
-    title: "Sharkie",
-    slug: "sharkie",
-    thumbnail: thumbnailSharkie,
-    description: "2D adventure game",
-  },
-  /**  {
-    title: "WebGL Particles",
-    slug: "particles",
-    thumbnail: thumbnailParticles,
-    description: "Dynamic 3D particles",
-  }, */
-  {
-    title: "Pokédex",
-    slug: "pokedex",
+    title: "Issue Tracker",
+    slug: "issue-tracker",
     thumbnail: thumbnailPokedex,
-    description: "Open-source learning project",
+    description: "Issue management API with tracking features",
   },
 ] as const satisfies ProjectPreview[];

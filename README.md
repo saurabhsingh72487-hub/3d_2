@@ -1,43 +1,54 @@
-# Portfolio (2025)
+# Saurabh Singh Portfolio
 
-Personal portfolio site: project case studies, lightweight 3D and shader demos, bilingual copy (English and German).
+Personal portfolio showcasing projects, open-source contributions, certifications, and technical skills.
 
-Built with **Vue 3**, **TypeScript**, and **Vite**. Motion via **GSAP** and **Lenis**, 3D via **three.js**, audio via **Howler**. GLSL is compiled through **vite-plugin-glsl**.
+Built with **Vue 3**, **TypeScript**, and **Vite**. Motion powered by **GSAP** and **Lenis**, with interactive 3D experiences using **Three.js**.
 
 ## Scripts
 
-| Command        | Description                          |
-| -------------- | ------------------------------------ |
-| `npm run dev`   | Dev server on port **3000** (`strictPort`) |
-| `npm run build` | `vue-tsc` then production bundle to `dist/` |
-| `npm run preview` | Serve the production build locally |
-| `npm run typecheck` | Typecheck only (`vue-tsc -b`) |
+| Command             | Description              |
+| ------------------- | ------------------------ |
+| `npm run dev`       | Start development server |
+| `npm run build`     | Create production build  |
+| `npm run preview`   | Preview production build |
+| `npm run typecheck` | Run TypeScript checks    |
 
-## Content
+## Projects
 
-- **Projects**: `src/content/projects/{en,de}/<slug>.ts` — copy, tags, media, links. Slugs must align with `projectIds` in `src/content/projects/index.ts`.
-- **Previews / listing**: `src/content/projects/previews/`.
-- **Tags**: variants and labels live in `src/components/tagVariants.ts` (used by `Tag.vue` and content types).
+* Helmet Detection System
+* Open Source Contributions
+* FreeCodeCamp Certifications
+* Stock Price Checker
+* Issue Tracker
 
-## Stack (high level)
+## Skills
 
-- Vue 3 (`<script setup>`), SCSS with shared mixins (`src/assets/styles/`)
-- i18n helpers under `src/i18n/`
-- WebGL / GLSL under `src/three/` where applicable
+### Frontend
 
-## Credits & Attribution
+* HTML
+* CSS
+* JavaScript
+* React
 
-This project was created and designed by David Heckhoff.
+### Backend
 
-If you use this project or substantial parts of its source code as a base for your own portfolio or work, attribution must be preserved.
+* Node.js
+* Express.js
+* MongoDB
 
-Please keep:
+### Concepts
 
-- existing credit comments in the source code
-- this attribution section in the README
-- a visible reference to the original project/repository in derivative works
+* REST APIs
+* WebRTC
+* Responsive Design
 
-Original portfolio:
--> https://david-hckh.com
+### Tools
 
-Commercial reuse or redistribution of substantial portions of this project without permission is prohibited.
+* Git
+* GitHub
+
+## Contact
+
+* GitHub: https://github.com/saurabhsingh72487-hub
+* LinkedIn: https://linkedin.com/in/saurabh-singh7
+* Email: [saaurabhsingh13@gmail.com](mailto:saaurabhsingh13@gmail.com)

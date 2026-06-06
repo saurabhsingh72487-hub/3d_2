@@ -25,12 +25,14 @@ export const usePreloader = () => {
   watch(
     progress,
     (newProgress) => {
-      const rect = document.querySelector(".preloader-rect") as HTMLElement;
-      const preloader = document.querySelector(".preloader") as HTMLElement;
+    const rect = document.querySelector(".preloader-rect") as HTMLElement | null;
+const preloader = document.querySelector(".preloader") as HTMLElement | null;
       if (newProgress === 1) {
         gsap.delayedCall(0.2, () => {
           document.body.classList.remove("is-loading");
-          preloader.classList.add("preloader-hidden");
+        if (preloader) {
+  preloader.classList.add("preloader-hidden");
+}
           preloaderVisible.value = false;
         });
       }
